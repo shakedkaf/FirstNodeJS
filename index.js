@@ -1,9 +1,13 @@
 
-"";
 var express = require('express');
 var app = express();
 app.get('/', function (req, res) {
  res.send('Hello World!');
+});
+
+app.get('/', function (req, res) {
+ var img = req.query.q;
+ res.send('Hello World!' + img);
 });
 
 var port = process.env.PORT || 8080;
