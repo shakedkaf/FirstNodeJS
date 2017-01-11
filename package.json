@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/shakedkaf/FirstNodeJS.git"
   },
+  "scripts": {
+    "start": "server2.js"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
