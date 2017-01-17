@@ -10,7 +10,7 @@ res.send('Hello connect to the server :)' );
 
  // Check if get surf image
  if (str_image === 'surf') {
-     // res.send('Get dwonlad surf image');
+      res.send('Get dwonlad surf image');
      var img1 = fs.readFileSync('./logo.gif');
      res.writeHead(200, {'Content-Type': 'images/surf' });
      res.end(img1, 'binary');
