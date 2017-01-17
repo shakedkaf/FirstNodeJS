@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-res.send('Hello connect to the server :)' );
+//res.send('Hello connect to the server :)' );
 
  // Get image name from the url
  var str_img = req.query.img;
