@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/', function (req, res) {
  var img = req.query.q;
- res.send('Hello World!' + img);
+ res.send('Hello World! img = ' + img);
 });
 
 var port = process.env.PORT || 8080;
