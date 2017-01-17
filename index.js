@@ -3,8 +3,8 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
- var img = req.query.q;
- res.send('Hello World! img = ' + img);
+ var str_img = req.query.img;
+ res.send('Hello World! str_img = ' + str_img);
 });
 
 var port = process.env.PORT || 8080;
